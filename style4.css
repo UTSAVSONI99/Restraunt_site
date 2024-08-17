@@ -1,0 +1,311 @@
+*{
+
+    margin: 0;
+    padding:0;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+.main-content{
+
+    width: 100%;
+    height: 100vh;
+    background-color: #a9a9a947;
+}
+
+#navbar-color{
+    background-color: white;
+    box-shadow: 0px -11px 4px 10px black;
+
+}
+
+#logo {
+     font-size: 25px;
+     color: #0ea10e;
+     text-shadow: 1px 1px 1px black;
+}
+
+#logo img{
+     margin-bottom: 10px;
+}
+
+.navbar-nav{
+
+    margin-left: 100px;
+   
+}
+
+.nav-item .nav-link{
+       color:black;
+       font-size:18px;
+       font-weight:bold;
+       margin-left:10px;
+       transition: 0.6s ease;
+}
+
+.nav-item .nav-link:hover{
+    background-color: #0ea10e;
+    color: white;
+    border-radius: 5px;
+}
+
+#btn a{
+    text-decoration: none;
+}
+
+#btn button{
+    width: 120px;
+    height:30px;
+    font-size:16px;
+    color:#f7ce78;
+    border:2px solid #6c3c0b;
+    background: transparent;
+    border-radius: 5px;
+}
+
+#btn button:hover{
+      
+    background-color: #0ea10e;
+    color: #613955;
+
+}
+
+@media screen and (max-width:1000px) {
+
+    .navbar-nav
+    {
+         margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:1338px) {
+   
+    #btn{
+
+        margin-right:50px;
+    }
+
+    #btn button{
+
+        width:90px;
+        height: 25px;
+        font-size:15px;
+    }
+
+    .nav-item .nav-link{
+        font-size:14px;
+    }
+}
+
+/* Home section */
+  .home{
+     display: flex;
+     align-items: center;
+     justify-content:center ;
+     flex-wrap: wrap; 
+     position: relative;
+     
+  }
+
+  .home .img{
+       flex: 1 1 400px;
+ }
+ 
+ .home .img img{
+    width:90%;
+    margin: 50px 0px 0px 30px;
+   
+ }
+
+ .home .content{
+      flex: 1 1 400px;
+ }
+  
+ .content h3{
+        
+    margin-left: 130px;
+    font-size: 60px;
+    text-shadow: 1px 1px 1px black;
+ }
+
+ .content p{
+    
+    color:  #bcd431;
+    margin-left: 130px;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+ }
+  .content .btn{
+    margin-left: 150px;
+    width:100px;
+    height: 35px;
+    background-color:#0ea10e;
+    color:white
+  }
+
+   @media screen and (max-widh :800px)
+   {
+       .content h3{
+           margin-left:50px;
+
+       }
+
+       .content p{
+        margin-left:50px;
+
+    }
+
+    .content .btn{
+        margin-left:50px;
+
+    }
+
+   }
+
+
+   @media screen and (max-widh :570px)
+   {
+       .content h3{
+           margin-left:10px;
+
+       }
+
+       .content p{
+        margin-left:10px;
+
+    }
+
+    .content .btn{
+        margin-left:10px;
+
+    }
+
+   }
+/* Home section */
+
+#about {
+   
+    margin-top: 100px;
+   
+}
+
+#about h1 {
+    margin-top: 50px;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid #0ea10e; /* 'solid' keyword was missing */
+}
+
+/* Menu */
+
+#menu {
+        background-color: #a9a9a947;
+        margin-top: 100px;
+        border-radius: 10px;
+        box-shadow: 0 0 3px black;
+     
+}
+
+#menu h1 {
+    margin-top: 50px;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid #0ea10e; /* 'solid' keyword was missing */
+}
+
+/* Menu */
+
+/* Book a table*/
+ #book-table h1{
+        margin-top: 100px;
+        text-shadow: 1px 1px 1px black;
+        border-bottom: 2px solid #0ea10e; 
+ }
+
+ #btntable button {
+
+         width: 200px;
+         height: 38px;
+         background: transparent ;
+         letter-spacing: 3px;
+         border: 2px solid #0ea10e;
+         transition: 0.5s ease;
+         cursor: pointer;
+ }
+
+ #btntable button:hover{
+      background-color: #0ea10e;
+      color: antiquewhite;
+ }
+
+ @media screen and (min-width: 260px){
+       
+    #btntable button {
+
+        width: 120px;
+        height: 30px;
+        font-size: 15px;
+        letter-spacing: 0;
+        
+    }
+
+ }
+
+/* Book a table*/
+
+/* Contact*/
+     
+
+#contact h1{
+    margin-top: 100px;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid #0ea10e; 
+}
+
+/* Contact*/
+
+/* order detail*/
+#order-detail {
+    background-color: #a9a9a947;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px black;
+ 
+} 
+
+
+#order-detail h1{
+    margin-top: 100px;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid #0ea10e; 
+}
+
+/* order detail*/
+
+
+/* pAYMENT*/
+
+#payment h1{
+    margin-top: 100px;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid #0ea10e; 
+}
+/* pAYMENT*/
+
+
+
+  /* login*/
+
+  #login h1{
+    margin-top: 100px;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid #0ea10e; 
+}
+
+ /* login*/
+
+  /* footer*/
+  #footer{
+    margin-top: 80px;
+   background-color: darkgray;
+   color:white;
+   
+}
+  /* footer*/
